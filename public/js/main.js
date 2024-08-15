@@ -135,65 +135,8 @@ var body = document.body;
 body.insertBefore(navbarDiv, body.firstChild);
 
 const texts = [
-  "Ewww Homework whats that",
-  "Rip 3kh0!",
-  "Now with a PR00000000000xy! ",
-  "The site to cure Total boredness ",
-  "A LOT OF GAMES!",
-  "shit",
-  "What is Google Sites?",
-  "No",
-  "Yes",
-  "insert text here",
-  "Placeholder text at its finest!",
-  "Unblocked!",
-  "Welcome To Lunaar!",
-  "Did you know we are open source? Fork US!",
-  'Join the discord: <a href="https://dsc.gg/parcoil">https://dsc.gg/parcoil</a>',
-  "404: Productivity not found.",
-  "Snappier is bad at american truck simulator",
-  "Ctrl + Alt + Delete your worries.",
-  "Oops! I broke it again. - doge",
-  "Gas Gas Gas",
-  "Ctrl+Z is my favorite key. - doge",
-  "Join us on Discord: discord.gg/fbjT5wG4za",
-  "Daniel gets no girls",
-  "Pineapple Cow",
-  "chromebooks suck",
-  "Lorem ipsum",
-  "404: Brain not found.",
-  "technoblade never dies",
-  "whats up brother",
-  "about:blank on top",
-  "Doge does not understand why this does not white",
-  "cats are better",
-  "thx sandwich",
-  "Yup this is Julian.",
-  "they not like us",
-  "What's up brother!",
-  "Do not insert text here",
-  "They not like us",
-  "1 + 1 = 11",
-  "LUNAARR",
-  "My CPU is 156 degrees :)",
-  "Spicy Nacho Doritos are good",
-  "Yo so games are cool",
-  "Aiden does questionable things...",
-  "Bonelab = Garys mod",
-  "Elden Ring on top - wavy ",
-  'Join our Discord: <a href="https://dsc.gg/parcoil">https://dsc.gg/parcoil</a>',
-  "better than interstellar",
-  "thats tuff",
-  "NodeJS on top!",
-  "Aiden Has a foot fetish",
-  "Aiden loves Megadeth and Pantera",
-  "Or what!",
-  "Geeeeeeeeeeeeeetar!!!!!!",
-  "Powerade Sucks!",
-  "Do not insert text here",
-  "Sandwich Loves Metallica",
-  "Oh yeah or whatever",
-  "the name lunaar is a tribute to my cat luna that has sadly passed away - doge",
+  "Im Cool",
+  "idk",
 ];
 
 function getRandomIndex(max) {
@@ -268,7 +211,7 @@ function updateCustomTitle() {
   const customTitle = document.getElementById("customTitle").value;
   changeTabCloak(
     customTitle,
-    document.querySelector("#favicon").getAttribute("href")
+    document.querySelector("#favicon").getAttribute("href") 
   );
 }
 hehe.src =
@@ -277,7 +220,7 @@ hehe.src =
 function updateCustomFavicon() {
   const customFavicon = document.getElementById("customFavicon").value;
   changeTabCloak(document.title, customFavicon);
-}
+} 
 
 function changeTabCloak(title, favicon) {
   document.title = title;
