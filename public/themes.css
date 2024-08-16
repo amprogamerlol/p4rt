@@ -19,7 +19,7 @@ To use a theme, add the 'theme' attribute to the <body> tag, e.g. <body theme="g
 body[theme="main"] {
   --background-filter: blur(3px) brightness(80%);
   /* --bg: #240063; */
-  --bg: #3b039c;
+  --bg: #8B0000;
   --alt: rgb(69, 9, 174);
   --button: #36028f;
   --border: #330386;
